@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "style.css"/>
+    <script type = "text/javascript"  src = "main.js"></script>
+</head>
+<body id = "main">
+<table id = "reciept" style = "text-align: center; border-spacing: 100px 50px; font-size: 20px">
+<tbody id = "tableBody">
+<tr>
+    <th> Product Name</th>
+    <th> # of Pieces Bought </th>
+    <th> Product Price ($) </th>
+</tr>
+</tbody>
+</table>
+<table style = "text-align: center;">
+    <tr>
+        <td style = "padding-left: 110px;"> <input style = "width: 95px; length: 20px; text-align: center;" id = "name" type = "text"> </td>
+        <td style = "padding-left: 130px;"> <input style = "width: 110px; length: 15px; text-align: center;" id = "bought" type = "text"> </td>
+        <td style = "padding-left: 130px;"> <input style = "width: 110px; length: 20px; text-align: center;" id = "price" type = "text"> </td>
+        <td style = "padding-left: 130px;"> <button onclick = "addItem()"> Add Item </button> </td>
+    </tr>
+</table>
+<br>
+<button style = "margin-left: 110px;"onclick = "generateQR()"> Generate QR Code </button>
+<br>
+</body>
+</html>
